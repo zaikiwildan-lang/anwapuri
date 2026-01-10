@@ -19,25 +19,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const Bird = ({ delay = 0, y = "20%", xStart = "-10%", xEnd = "110%", duration = 20 }) => (
-  <motion.div
-    initial={{ x: xStart, y, opacity: 0, scale: 0.6 }}
-    animate={{ 
-      x: xEnd, 
-      y: [y, `calc(${y} - 50px)`, `calc(${y} + 30px)`, y],
-      opacity: [0, 0.4, 0.4, 0],
-      scale: [0.6, 0.9, 0.9, 0.6]
-    }}
-    transition={{ duration, repeat: Infinity, delay, ease: "linear" }}
-    className="absolute pointer-events-none"
-    style={{ zIndex: 0 }}
-  >
-    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" className="text-gold-luxury/40">
-      <path d="M2 12C5 9 9 9 12 12C15 9 19 9 22 12" stroke="currentColor" strokeWidth="0.5" strokeLinecap="round"/>
-    </svg>
-  </motion.div>
-);
-
 export default function LandingPage() {
   const fadeIn = {
     initial: { opacity: 0, y: 30 },
@@ -93,11 +74,6 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <div className="relative w-full h-screen bg-primary-luxury overflow-hidden flex flex-col items-center justify-center text-center px-6">
-        <Bird delay={0} y="25%" duration={25} />
-        <Bird delay={7} y="55%" duration={30} xStart="110%" xEnd="-10%" />
-        <Bird delay={15} y="45%" duration={22} />
-        <Bird delay={3} y="75%" duration={35} />
-        
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.5 }} className="relative z-10 space-y-10">
           <div className="space-y-2">
             <motion.span 
