@@ -41,7 +41,7 @@ export default function LandingPage() {
       img: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/7507069f-4425-4e2b-b4f0-d22477c24a14/burung-tua-1767945800976.png?width=800&height=600&resize=contain"
     },
     { 
-      title: "Velmora", 
+      title: "Claiton", 
       price: "1.2M",
       specs: { lt: 55, lb: 85, bed: 3, bath: 2, car: 1 },
       tag: "LIMITED",
@@ -86,9 +86,9 @@ export default function LandingPage() {
   ];
 
   const waNumber = "6281318000597";
-  const waLink = `https://wa.me/${waNumber}?text=Halo%20Velmora%20Residence%2C%20saya%20tertarik%20dengan%20informasi%20huniannya.`;
+  const waLink = `https://wa.me/${waNumber}?text=Halo%20Claiton%20Residence%2C%20saya%20tertarik%20dengan%20informasi%20huniannya.`;
   
-  const googleMapsLink = "https://www.google.com/maps/search/ANWA+Residence+Puri+Velmora+Meruya+Utara+Kembangan+Jakarta+Barat";
+  const googleMapsLink = "https://www.google.com/maps/search/ANWA+Residence+Puri+Claiton+Meruya+Utara+Kembangan+Jakarta+Barat";
   const address = "Jl. Taman Palem Raya No.5, Meruya Utara, Kec. Kembangan, Jakarta Barat 11620";
 
   const openExternalUrl = (url: string) => {
@@ -112,7 +112,7 @@ export default function LandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-primary-luxury/95 backdrop-blur-sm border-b border-white/10">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8 py-4">
           <div className="font-serif text-xl lg:text-2xl font-bold text-white">
-            VELMORA<span className="text-gold-luxury">.</span>
+            CLAITON<span className="text-gold-luxury">.</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm text-white/80">
@@ -164,7 +164,7 @@ export default function LandingPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="space-y-6 lg:space-y-8">
             <span className="text-gold-luxury text-xs lg:text-sm font-medium tracking-[0.3em] uppercase inline-block">Hunian Eksklusif di Meruya</span>
             <h1 className="font-serif text-5xl sm:text-6xl lg:text-8xl font-bold text-white leading-tight">
-              VELMORA<br />
+              CLAITON<br />
               <span className="text-gold-luxury italic font-normal">Residence</span>
             </h1>
             <p className="text-white/60 max-w-xl mx-auto text-sm lg:text-base leading-relaxed">
@@ -213,7 +213,7 @@ export default function LandingPage() {
                 Hunian Premium<br />di Lokasi Strategis
               </h2>
               <p className="text-zinc-500 text-base lg:text-lg leading-relaxed max-w-lg">
-                Velmora Residence menghadirkan konsep hunian modern dengan sentuhan kemewahan. 
+                Claiton Residence menghadirkan konsep hunian modern dengan sentuhan kemewahan. 
                 Berlokasi di jantung Meruya, Jakarta Barat, dengan akses mudah ke berbagai 
                 fasilitas publik dan transportasi.
               </p>
@@ -240,7 +240,7 @@ export default function LandingPage() {
             >
               <Image 
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/7507069f-4425-4e2b-b4f0-d22477c24a14/bisasa-17679433617995.png?width=800&height=600&resize=contain" 
-                alt="Velmora Residence" 
+                alt="Claiton Residence" 
                 fill 
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -444,7 +444,7 @@ export default function LandingPage() {
             >
               <Image
                 src="https://maps.googleapis.com/maps/api/staticmap?center=-6.1856,106.7561&zoom=15&size=800x600&maptype=roadmap&markers=color:red%7C-6.1856,106.7561&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                alt="Lokasi Velmora Residence"
+                alt="Lokasi Claiton Residence"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -523,7 +523,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16 mb-10 lg:mb-12">
             <div className="space-y-4">
               <h3 className="font-serif text-2xl font-bold text-primary-luxury">
-                VELMORA<span className="text-gold-luxury">.</span>
+                CLAITON<span className="text-gold-luxury">.</span>
               </h3>
               <p className="text-base text-zinc-500 leading-relaxed">
                 Hunian mewah dengan sentuhan modern di lokasi strategis Meruya, Jakarta Barat.
@@ -553,7 +553,7 @@ export default function LandingPage() {
           </div>
           <div className="pt-8 lg:pt-10 border-t border-zinc-100 text-center">
             <p className="text-sm text-zinc-400">
-              © {new Date().getFullYear()} Velmora Residence. All rights reserved.
+              © {new Date().getFullYear()} Claiton Residence. All rights reserved.
             </p>
           </div>
         </div>

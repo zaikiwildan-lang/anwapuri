@@ -1,6 +1,6 @@
-# Velmora Residence - Landing Page
+# Claiton Residence - Landing Page
 
-Website landing page untuk Velmora Residence, hunian eksklusif premium di Meruya, Jakarta Barat.
+Website landing page untuk Claiton Residence, hunian eksklusif premium di Meruya, Jakarta Barat.
 
 ## Tech Stack
 
