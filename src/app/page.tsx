@@ -41,12 +41,12 @@ export default function LandingPage() {
       img: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/7507069f-4425-4e2b-b4f0-d22477c24a14/burung-tua-1767945800976.png?width=800&height=600&resize=contain"
     },
     { 
-      title: "Claiton", 
+      title: "Clayton", 
       price: "1.2M",
       specs: { lt: 55, lb: 85, bed: 3, bath: 2, car: 1 },
-      tag: "LIMITED",
+      tag: "NEW CLUSTER",
       features: ["Private Terrace", "Kitchen Set", "Smart Lock"],
-      img: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/7507069f-4425-4e2b-b4f0-d22477c24a14/cicakdidinding-1767943369875.png?width=800&height=600&resize=contain"
+      img: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/7507069f-4425-4e2b-b4f0-d22477c24a14/WhatsApp-Image-2026-01-21-at-7.28.25-AM-1768957495831.jpeg?width=800&height=600&resize=contain"
     }
   ];
 
@@ -187,7 +187,7 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-12">
             {[
               { icon: MapPin, label: "Lokasi", value: "Meruya, Jakarta Barat" },
-              { icon: Car, label: "Akses Tol", value: "5 Menit ke 2 Pintu Tol" },
+              { icon: Car, label: "Akses Tol", value: "4 Akses Tol Terdekat" },
               { icon: Trees, label: "Fasilitas", value: "Mall Puri Indah 10 Menit" }
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4 lg:gap-5">
@@ -477,19 +477,23 @@ export default function LandingPage() {
                 <ul className="space-y-3 text-base lg:text-lg text-zinc-600">
                   <li className="flex items-start gap-3">
                     <span className="text-gold-luxury text-xl">•</span>
-                    <span>5 menit ke Tol JORR & Tol Dalam Kota</span>
+                    <span>Tol Meruya (5 menit)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-gold-luxury text-xl">•</span>
-                    <span>10 menit ke Mall Puri Indah & Lippo Mall Puri</span>
+                    <span>Tol Joglo (7 menit)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-gold-luxury text-xl">•</span>
-                    <span>25 menit ke Bandara Soekarno-Hatta</span>
+                    <span>Tol Karang Tengah (10 menit)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-gold-luxury text-xl">•</span>
-                    <span>Dekat sekolah & rumah sakit ternama</span>
+                    <span>Tol Puri (8 menit)</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-gold-luxury text-xl">•</span>
+                    <span>Mall Puri Indah & Lippo Mall Puri (10 menit)</span>
                   </li>
                 </ul>
               </div>
